@@ -1,18 +1,80 @@
-# React + Vite
+💻 Mac OS Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A macOS-inspired interactive desktop experience built using React and Vite.
+This project replicates core macOS window behaviors like dragging, resizing, maximizing, and closing — all inside the browser.
 
-Currently, two official plugins are available:
+🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 Visit Here:
+🔗 https://mac-os-tau-lyart.vercel.app
 
-## React Compiler
+🛠 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+React
 
-## Expanding the ESLint configuration
+Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+SCSS
 
-Project Live Demo : mac-os-tau-lyart.vercel.app
+react-rnd (Draggable & Resizable Windows)
+
+Vercel (Deployment)
+
+✨ Features
+
+🖱 Draggable windows
+
+📏 Resizable windows
+
+🟢 Maximize / Restore functionality
+
+🔴 Close window functionality
+
+🖥 macOS-inspired UI
+
+💻 Terminal-style interface
+
+⚡ Fast performance with Vite
+
+📦 Installation & Setup
+
+Clone the repository:
+
+git clone <your-repository-link>
+
+
+Navigate into the project folder:
+
+cd <project-folder-name>
+
+
+Install dependencies:
+
+npm install
+
+
+Run development server:
+
+npm run dev
+
+🌍 Deployment
+
+This project is deployed using Vercel and is live at:
+
+https://mac-os-tau-lyart.vercel.app
+
+📌 Future Improvements
+
+Window stacking (z-index focus system)
+
+Smooth maximize animations
+
+Dock with active app indicators
+
+Dark/Light theme toggle
+
+Mobile responsiveness
+
+👨‍💻 Author
+
+Navneet Sinha
