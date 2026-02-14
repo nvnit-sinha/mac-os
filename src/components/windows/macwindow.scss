@@ -56,3 +56,17 @@
         border-radius: 0.2rem;
     }
 }
+
+@media (max-width:415px) {
+    .window{
+        height: 35vh;
+        width: 85vw;
+        .nav{
+            gap:0.75rem;
+
+            .title{
+                font-size: .75rem;
+            }
+        }
+    }
+}

@@ -25,3 +25,14 @@ nav{
         transform: translateY(-3%);
     }
 }
+
+
+@media (max-width:415px) {
+    nav{
+        .left,
+        .right{
+            gap:0.3rem;
+        }
+    }
+    
+}
