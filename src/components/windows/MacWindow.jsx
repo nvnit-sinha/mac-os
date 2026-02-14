@@ -46,6 +46,7 @@ const MacWindow = ({
       position={position}
       bounds="window"
       dragHandleClassName="nav"
+      cancel='.dots'
       disableDragging={isMaximized}
       enableResizing={!isMaximized}
       onDragStop={(e, d) => {
@@ -63,6 +64,8 @@ const MacWindow = ({
         <div className="nav">
           <div className="dots">
             <div
+              onMouseDown={(e) => e.stopPropagation()}
+            onTouchStart={(e) => e.stopPropagation()}
               onClick={() =>
                 setWindowsState(state => ({
                   ...state,
@@ -72,6 +75,8 @@ const MacWindow = ({
               className="dot red"
             />
             <div
+              onMouseDown={(e) => e.stopPropagation()}
+              onTouchStart={(e) => e.stopPropagation()}
               onClick={() =>
                 setWindowsState(state => ({
                   ...state,
@@ -81,6 +86,8 @@ const MacWindow = ({
               className="dot yellow"
             />
             <div
+              onMouseDown={(e) => e.stopPropagation()}
+              onTouchStart={(e) => e.stopPropagation()}
               onClick={handleMaximize}
               className="dot green"
             />
