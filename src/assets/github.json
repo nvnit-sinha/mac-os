@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "image": "https://picsum.photos/400/300?random=1",
+    "title": "Task Management App",
+    "description": "A productivity web application that helps users organize tasks, set deadlines, and track progress with an intuitive dashboard.",
+    "tags": ["React", "Node.js", "MongoDB", "JWT"],
+    "repolink": "https://github.com/nvnit-sinha/emp",
+    "demolink": "https://task-management-demo.vercel.app"
+  },
+  {
+    "id": 2,
+    "image": "https://picsum.photos/400/300?random=2",
+    "title": "E-Commerce Platform",
+    "description": "A full-stack e-commerce website featuring product listings, shopping cart functionality, payment integration, and admin dashboard.",
+    "tags": ["MERN", "Stripe", "Redux", "Bootstrap"],
+    "repolink": "https://github.com/nvnit-sinha/cohort",
+    "demolink": "https://ecommerce-demo.netlify.app"
+  },
+  {
+    "id": 3,
+    "image": "https://picsum.photos/400/300?random=3",
+    "title": "Weather Forecast App",
+    "description": "A responsive weather application that provides real-time weather updates and 7-day forecasts using external APIs.",
+    "tags": ["JavaScript", "API", "CSS", "HTML"],
+    "repolink": "https://github.com/username/weather-app",
+    "demolink": "https://weather-forecast-demo.vercel.app"
+  },
+  {
+    "id": 4,
+    "image": "https://picsum.photos/400/300?random=4",
+    "title": "Chat Application",
+    "description": "A real-time chat application supporting private messaging, group chats, and online status indicators.",
+    "tags": ["Socket.io", "Express", "React", "Firebase"],
+    "repolink": "https://github.com/nvnit-sinha/react",
+    "demolink": "https://chat-app-demo.netlify.app"
+  },
+  {
+    "id": 5,
+    "image": "https://picsum.photos/400/300?random=5",
+    "title": "Portfolio Website",
+    "description": "A modern personal portfolio website to showcase projects, skills, and contact information with smooth animations.",
+    "tags": ["React", "Tailwind CSS", "Framer Motion"],
+    "repolink": "https://github.com/username/portfolio-website",
+    "demolink": "https://portfolio-demo.vercel.app"
+  },
+  {
+    "id": 6,
+    "image": "https://picsum.photos/400/300?random=6",
+    "title": "Blogging Platform",
+    "description": "A content management system where users can create, edit, and publish blog posts with authentication and comments.",
+    "tags": ["Next.js", "Prisma", "PostgreSQL", "Auth"],
+    "repolink": "https://github.com/nvnit-sinha/node_hotels",
+    "demolink": "https://blog-platform-demo.vercel.app"
+  }
+]
+
